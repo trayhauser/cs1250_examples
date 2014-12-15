@@ -8,4 +8,5 @@ content in the course text, but they are meant to enhance
 what is in the course.
 
 George Gerules MS
+
 UMSL - Math Computer Science
