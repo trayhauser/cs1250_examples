@@ -1,0 +1,5 @@
+4 group population
+grpA   100
+grpB   200
+grpC   300
+grpD   400
