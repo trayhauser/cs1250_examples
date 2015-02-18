@@ -1,6 +1,8 @@
 #include <iostream>
 using namespace std;
 
+#define DEBUG 1
+
 int main()
 {
   int a = 2;
@@ -10,7 +12,7 @@ int main()
   long l = 2L;
   double e = 1.2f;
 
-#if 0
+#ifdef DEBUG
   d = a * 2;
   d *= 2;
   d += 2;
@@ -19,7 +21,6 @@ int main()
   d = c / b;
   e = c % b;
 #endif
-
 #if 0
   d = d * 2;
   d = c / a;
