@@ -19,7 +19,8 @@ int main()
   for(int i = 0; i < 20; i++)
   {
     nVal = rand();
-    nVal *= -1; 
+    //nVal *= -1; 
+    nVal = nVal % 10;
     cout << nVal << endl;
   }
   //cout << rand() << endl;

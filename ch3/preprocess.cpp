@@ -3,7 +3,7 @@
 using namespace std;
 
 
-//#define _TEST_
+#define _TEST_
 
 #ifdef _TEST_ 
 
