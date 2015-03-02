@@ -1,6 +1,5 @@
 #include<iostream>
 #include<iomanip>
-#include <DirectX
 using namespace std;
 
 int main()

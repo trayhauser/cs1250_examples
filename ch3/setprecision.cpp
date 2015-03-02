@@ -14,8 +14,6 @@ int main()
   cout << setprecision(4) << 1234.5678 << endl;
   cout << setprecision(5) << 1234.5678 << endl;
   cout << setprecision(6) << 1234.5678 << endl;
-  cout << setprecision(4) << 652.378 << " " << 0.032894 << endl; 
-  cout << setprecision(4) << 652.301 << " " << 0.032894 << endl; 
   return 0;
 }
 

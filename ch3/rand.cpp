@@ -7,7 +7,7 @@ using namespace std;
 
 int main()
 {
-  unsigned seed = time(0);
+  unsigned int seed = time(0);
   int nVal = 0;
   //unsigned seed = 0;
 //  unsigned int n = -1;

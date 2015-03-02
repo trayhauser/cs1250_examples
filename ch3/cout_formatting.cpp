@@ -11,10 +11,11 @@ int main()
   //cout << "EnterChar: ";
   cout << "EnterNum: ";
   cin >> number;
-  //cin >> dNum;
-  //cin >> ch;
-  cin.ignore();
-  ch << cin.get();
+  cin >> dNum;
+  //cout << "EnterAnotherNum: ";
+  cin >> ch;
+  //cin.ignore();
+  //ch << cin.get();
 
   cout << number << " ";
   cout << "EnterChar: ";

@@ -10,13 +10,14 @@ int main()
   int a = 0;
   cout << "Enter string : ";
   //cin >> str1;
-  cin >> str1 >> a;
+  cin >> str1 >> str2;
   //cin >> str1 >> a;
-  //cin.ignore();
-  //str3 = str1 + str2;
+  cin.ignore();
+  str3 = str1 + str2;
   //str2 += str1;
   //cout << "What was entered -> " << str1  << endl;
-  cout << "What was entered -> " << str1 << a << endl;
+  cout << "What was entered -> " << str3  << endl;
+  //cout << "What was entered -> " << str1 << a << endl;
   //cout << "What was entered -> " << str1 << " " << str2 << endl;
   //cout << "What was entered -> " << str1 << " " << a+3 << endl;
 
