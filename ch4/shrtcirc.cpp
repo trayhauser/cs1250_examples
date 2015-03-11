@@ -9,9 +9,12 @@ int main()
   int nC = 3;
   int nD = -1;
 
+  // can you guess the results?
+
   // short circuit evaluation.
   if( (nA == nB) && (nD += 1) )
   //if( (nA == nA) && (nD += 1) )
+  //if( (nA == nA) && (nD += 2) )
   //if( (nA == nA) or (nB == nB) )
   {
     cout << nD << endl;
