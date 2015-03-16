@@ -9,7 +9,7 @@ int main()
   bool bval1 = true;
   bool bval2 = false;
   bool bval3 = false;
-#if 1
+#if 0 // bad
   if(bval1)
   if(bval2)
   if(bval3)
@@ -18,7 +18,7 @@ int main()
     cout << "false\n";
 #endif  
 
-#if 0
+#if 1 // good
   // what really is going on
   if(bval1)
   {
