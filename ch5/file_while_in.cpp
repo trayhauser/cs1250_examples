@@ -12,7 +12,7 @@ int main()
   cout << "Give me the name! " ;
   cin >> filename; // ask the user for the file name
   //ifstream inputFile(filename); // <-- produces error
-  ifstream inputFile(filename.c_str()); // <-- do file name this way
+  fstream inputFile(filename.c_str()); // <-- do file name this way
   
   const char* pStr = filename.c_str();
   printf("File name entered was ==> %s\n", pStr);

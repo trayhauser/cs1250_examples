@@ -34,6 +34,7 @@ int main()
       cout << "The record is ==>";
       cout << name << " " << pop << endl; 
     }
+    inputFile.close();
     return 0;
   }
   else

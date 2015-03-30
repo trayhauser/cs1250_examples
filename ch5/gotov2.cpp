@@ -32,16 +32,34 @@ int main()
   }
 #endif
 
+// for loop
   int evilcnt = 0;
 JUNK:
   cout << "Evil " << evilcnt << endl;
-  evilcnt++; 
   if(evilcnt > 2)
+  {
     goto ENDOFJUNK;  
-
+  }
+  {
+    cout << "I see stars, said Dave, the computer" << endl;
+  }  
+  evilcnt++; 
   goto JUNK;
 
 ENDOFJUNK:
+
+// do while
+  int a = 0;
+STARTOFMOREJUNK:
+  cout << "I really see stars, said Dave, the computer" << endl;
+
+  a++;
+  if(a > 2)
+    goto ENDOFMOREJUNK;
+
+  goto STARTOFMOREJUNK;    
+
+ENDOFMOREJUNK:
 
   return 0;
 }
